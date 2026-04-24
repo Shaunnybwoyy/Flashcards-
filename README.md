@@ -31,7 +31,7 @@ https://drive.google.com/file/d/10qhANV8XFiWh5v-8nIQjVrw67Oh_Vjxn/view?usp=shari
 <img width="308" height="547" alt="image" src="https://github.com/user-attachments/assets/929bf2a4-6405-4d03-8d5d-11e516dd12aa" />
 <img width="308" height="547" alt="image" src="https://github.com/user-attachments/assets/3a19d2b3-396f-41ff-bb69-ac968d590fe7" />
 
-## Well unfortunately I cannot make a video showing how to use the app due to the app not being able to run on my computers emulator as well as my phone.
+## Well unfortunately I cannot make a video showing how to use the app due to the app not being able to run on my computers emulator since I currently do not have a laptop as well as my phone.
 ## AI Disclosure
 
 CI/CD
