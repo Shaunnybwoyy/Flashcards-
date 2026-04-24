@@ -4,41 +4,79 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="16dp"
     tools:context=".QuizActivity">
 
     <TextView
-        android:id="@+id/tvQuestion"
-        android:layout_width="0dp"
+        android:id="@+id/tvQuestionNumber"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="24dp"
-        android:gravity="center"
-        android:text="Question will appear here"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/btnAnswer1"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Question 1 of 5"
+        android:textColor="@color/text_secondary"
+        android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/btnAnswer1"
+    <TextView
+        android:id="@+id/tvStatement"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="32dp"
-        android:layout_marginBottom="8dp"
-        android:text="Answer 1"
-        app:layout_constraintBottom_toTopOf="@+id/btnAnswer2"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="Statement goes here"
+        android:textColor="@color/text_primary"
+        android:textSize="22sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvQuestionNumber" />
 
     <Button
-        android:id="@+id/btnAnswer2"
+        android:id="@+id/btnHack"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="32dp"
-        android:layout_marginBottom="32dp"
-        android:text="Answer 2"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="8dp"
+        android:text="HACK"
+        app:layout_constraintEnd_toStartOf="@+id/btnMyth"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvStatement" />
+
+    <Button
+        android:id="@+id/btnMyth"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="MYTH"
+        app:layout_constraintBottom_toBottomOf="@+id/btnHack"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnHack"
+        app:layout_constraintTop_toTopOf="@+id/btnHack" />
+
+    <TextView
+        android:id="@+id/tvFeedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="Feedback"
+        android:textSize="18sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnHack" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Next"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvFeedback" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

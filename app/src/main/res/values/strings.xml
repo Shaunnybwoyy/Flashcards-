@@ -1,4 +1,12 @@
 <resources>
-    <string name="app_name">flashcards</string>
+    <string name="app_name">Flashcards</string>
     <string name="welcome_message">Welcome to the Life Hacks Quiz! Test your knowledge and learn something new.</string>
+    <string name="question_progress">Question %1$d of %2$d</string>
+    <string name="hack">HACK</string>
+    <string name="myth">MYTH</string>
+    <string name="feedback_correct">✅ Correct! That\'s a real time-saver!</string>
+    <string name="feedback_wrong">❌ Wrong! That\'s just an urban myth.</string>
+    <string name="next">Next</string>
+    <string name="see_results">See Results</string>
+    <string name="placeholder_statement">Statement goes here</string>
 </resources>
