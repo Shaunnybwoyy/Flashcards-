@@ -1,6 +1,6 @@
 ## Life hacks
 
-# This is an app called life hacks which contains 5 questions, quizzes, facts and most importantly, statements!, so in this sequence you are required to answer true or false to statements, bare in mind that there are also reviews as well, regardless of that it is a super good app and you can't go wrong in terms of finding out answers to the questions that you need
+# This is an app called life hacks which contains 5 questions, quizzes, facts and most importantly, statements!, so in this sequence you are required to answer true or false to statements, bare in mind that there are also reviews as well, regardless of that it is a super good app and you can't go wrong in terms of finding out answers to the questions that you need.
 
 ## Features
 
@@ -31,7 +31,7 @@ https://drive.google.com/file/d/10qhANV8XFiWh5v-8nIQjVrw67Oh_Vjxn/view?usp=shari
 <img width="308" height="547" alt="image" src="https://github.com/user-attachments/assets/929bf2a4-6405-4d03-8d5d-11e516dd12aa" />
 <img width="308" height="547" alt="image" src="https://github.com/user-attachments/assets/3a19d2b3-396f-41ff-bb69-ac968d590fe7" />
 
-
+## Well unfortunately I cannot make a video due to the app not being able to run on my computers emulator as well as my phone.
 ## AI Disclosure
 
 CI/CD
